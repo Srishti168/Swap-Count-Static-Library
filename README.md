@@ -1,6 +1,6 @@
 # Swap-Count-Static-Library
 
-This repository contains the necessary files and instructions to create a static library for counting swaps in a swapping operation. The library consists of three files: `main.c`, `swap.h`, and `swap_count.c`.
+This repository contains the necessary files and instructions to create a static library for counting number of swaps during sorting of array by different algorithms. The library consists of three files: `main.c`, `swap.h`, and `swap_count.c`.
 
 ## Files
 
@@ -52,4 +52,13 @@ Follow these steps to create and use the static library for swap counting:
    ```bash
    ./swap_count_example
    ```
+
+   
+**Supported Sorting Algorithms**
+1.  **Bubble Sort**
+2.  **Insertion Sort**
+3.  **Selection Sort**
+4.  **Merge Sort**
+5.  **Quick Sort**
+   
 
