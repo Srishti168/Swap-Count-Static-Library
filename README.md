@@ -2,11 +2,33 @@
 
 This repository contains the necessary files and instructions to create a static library for counting number of swaps during sorting of array by different algorithms. The library consists of three files: `main.c`, `swap.h`, and `swap_count.c`.
 
-## Files
 
-1. `main.c`: A sample main program that demonstrates how to use the swap count library.
-2. `swap.h`: The header file containing function declarations and any necessary constants or types.
-3. `swap_count.c`: The implementation file containing the actual logic to count swaps in a swapping operation.
+ ## Goals
+
+The primary goals of this project are:
+
+1. **Algorithmic Understanding**: To facilitate a clear understanding of different sorting algorithms, their inner workings, and the trade-offs they present.
+
+2. **Performance Comparison**: To compare the efficiency of sorting algorithms by counting the number of swaps required for different input arrays.
+
+3. **Educational Resource**: To serve as an educational resource for those interested in learning about sorting algorithms and their associated swap counts.
+
+## Specifications
+
+ ### Project Structure
+
+- **`main.c`**: This file contains the implementations of different sorting algorithms using functions from `swap.h`. It calculates the swap counts using `swap_count.c`.
+- **`swap.h`**: This header file defines the function required for swapping elements in the array.
+- **`swap_count.c`**: This file provides functions for counting swaps during the sorting process.
+
+  ### Supported Sorting Algorithms
+
+The project currently supports the following sorting algorithms:
+
+- **Bubble Sort**
+- **Insertion Sort**
+- **Selection Sort**
+
 
 ## Usage
 
@@ -52,13 +74,3 @@ Follow these steps to create and use the static library for swap counting:
    ```bash
    ./swap_count_example
    ```
-
-   
-**Supported Sorting Algorithms**
-1.  **Bubble Sort**
-2.  **Insertion Sort**
-3.  **Selection Sort**
-4.  **Merge Sort**
-5.  **Quick Sort**
-   
-
